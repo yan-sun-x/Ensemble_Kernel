@@ -1,0 +1,14 @@
+data_name : MUTAG
+kernel_name_list : 
+                - K_GS_8
+                - K_GS_4
+                - K_WL_1
+                - K_WL_3
+                - K_WL_5
+                - K_RW_0.1
+                - K_RW_0.5
+                - K_SP
+                - K_VH
+init_type : eigen_inv
+stepsize : 0.001
+num_iter : 100

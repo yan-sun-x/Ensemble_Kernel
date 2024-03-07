@@ -1,0 +1,9 @@
+data_name : COX2_MD
+kernel_name_list : 
+                - K_SP
+                - K_WL_1
+                - K_PM_4_8
+                - K_GS_4
+init_type : eigen
+stepsize : 0.005
+num_iter : 100
