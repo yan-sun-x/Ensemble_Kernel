@@ -1,4 +1,4 @@
-# Unsupervised Multiple Kernel Learning for Graphs
+# Unsupervised Multiple Kernel Learning for Graphs via Ordinality Preservation
 
 > Published as a conference [paper](https://openreview.net/pdf?id=6nb2J90XJD) at ICLR 2025.
 
@@ -38,3 +38,13 @@ Check the folder `experiemnt`, under which results on each dataset are display w
   - Losses and weights are recorded as well.
 
 
+
+## Citation
+```
+@inproceedings{sun2023mmd,
+  title={MMD Graph Kernel: Effective Metric Learning for Graphs via Maximum Mean Discrepancy},
+  author={Sun, Yan and Fan, Jicong},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2023}
+}
+```
