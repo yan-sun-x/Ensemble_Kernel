@@ -25,7 +25,7 @@ The folder structure is:
 If you want to run the model `UMKL-G` with the loss function `power KL divergence` in power 2, run the command as below.
 
 ```{bash}
-python main.py --model UMKL-G --dataset MUTAG --loss_fun $loss_fun --power 2
+python main.py --model UMKL-G --dataset MUTAG --loss_fun PKL --power 2
 ```
 
 ## Results
