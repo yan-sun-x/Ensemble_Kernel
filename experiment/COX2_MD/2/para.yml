@@ -1,9 +1,0 @@
-data_name : COX2_MD
-kernel_name_list : 
-                - K_SP
-                - K_PM_4_7
-                - K_PM_4_8
-                - K_VH
-init_type : uniform
-stepsize : 0.01
-num_iter : 100

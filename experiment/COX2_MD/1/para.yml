@@ -1,9 +1,0 @@
-data_name : COX2_MD
-kernel_name_list : 
-                - K_WL_1
-                - K_WL_3
-                - K_WL_5
-                - K_SP
-init_type : eigen_inv
-stepsize : 0.0001
-num_iter : 100

@@ -1,8 +1,36 @@
-data_name : MUTAG
-kernel_name_list : 
-                - K_GS_8
-                - K_WL_1
-                - K_RW_0.1
-init_type : eigen_inv
-stepsize : 0.00001
-num_iter : 100
+data_name: MUTAG
+epochs: 500
+init_type: uniform
+kernel_name_list:
+- K_GS_4
+- K_GS_5
+- K_GS_6
+- K_GS_7
+- K_GS_8
+- K_WL_1
+- K_WL_2
+- K_WL_3
+- K_WL_4
+- K_WL_5
+- K_WL_6
+- K_WL_7
+- K_WL_8
+- K_WL_9
+- K_WL_10
+- K_WLOA_1
+- K_WLOA_2
+- K_WLOA_3
+- K_WLOA_4
+- K_WLOA_5
+- K_WLOA_6
+- K_WLOA_7
+- K_WLOA_8
+- K_WLOA_9
+- K_WLOA_10
+- K_RW_0.1
+- K_RW_0.5
+- K_RW_0.8
+- K_SP
+- K_VH
+lr: 0.001
+weight_decay: 0.0001
