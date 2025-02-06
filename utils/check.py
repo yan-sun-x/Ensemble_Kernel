@@ -16,10 +16,6 @@ def check_tria_ineq(K_candidate):
                 diff2 = D[x,z] + D[y,z] - D[x,y]
                 diff3 = D[y,z] + D[x,y] - D[x,z]
                 if (diff1 < 0 ) or (diff2 < 0 ) or (diff3 < 0):
-                    # print(f'Invalid Triangle Inequality (Triplet: No.{x+1,y+1,z+1})')
-                    # print(f'D[{x},{y}] + D[{x},{z}] - D[{y},{z}] {diff1}')
-                    # print(f'D[{x},{z}] + D[{y},{z}] - D[{x},{y}] {diff2}')
-                    # print(f'D[{y},{z}] + D[{x},{y}] - D[{x},{z}] {diff3}')
                     tria_ineq = False
 
     return tria_ineq
@@ -29,3 +25,4 @@ def check_psd(K):
     psd = True
     if (0 - min(eigenValues)) > 1e-08: psd = False
     return psd
+              
