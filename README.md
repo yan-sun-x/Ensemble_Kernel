@@ -40,13 +40,10 @@ Check the folder `experiemnt`, under which results on each dataset are display w
 
 
 ## Citation
-
-*TBC.*
-<!-- ```
-@inproceedings{sun2023mmd,
-  title={MMD Graph Kernel: Effective Metric Learning for Graphs via Maximum Mean Discrepancy},
-  author={Sun, Yan and Fan, Jicong},
-  booktitle={The Twelfth International Conference on Learning Representations},
-  year={2023}
+```
+@inproceedings{sununsupervised,
+  title={Unsupervised Multiple Kernel Learning for Graphs via Ordinality Preservation},
+  author={Sun, Yan and Kok, Stanley},
+  booktitle={The Thirteenth International Conference on Learning Representations}
 }
-``` -->
+```
